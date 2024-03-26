@@ -273,19 +273,9 @@ Furthermore, models can be refined through more advanced hyperparameter tuning t
 In a nutshell, while our current model has achieved reasonably good accuracy, many ways exist to explore and improve it further. Considering alternative models and exploring other advanced hyperparameter tuning techniques may allow us to refine our prediction models and provide new insights into crop production prediction.
 
 
+## 7. Acknowledgements
 
-## 7. Collaboration
-**Nan Huang**, **Yi Zhang**, and **Luran Zhang** worked as a team, collaborated and mainly contributed to the code and ReadME part of the Preprocessing, Model 2 - Random Forest Regressor, Discussion, and Conclusion part of the project. We all gave feedback during each step.
-
-**Jason Dai** helped to search dataset to use, made visualizations on `Area` and `Production`, participated in making the linear regression model with interaction terms, and also searched graphs to help narrate the story in this project.
-
-**Andrew Zhao** helped create visualizations for numerical data, participated in developing the linear regression model with interaction terms, and wrote the introduction and assisted with creating figures. 
-
-**Shentong Li** took on the dual role of a coder and writer for our third model (neural network). Additionally, Shentong also wrote the documentation and explanation for Model 3.
-
-**Xiaoyu Gui** was also a coder and writer for Model 3, working alongside Shentong to develop the neural network. Xiaoyu was also responsible for refining the final writeup and adding writeup to each step.
-
-**Yuhe Tian** served as a coder and writer who focused on the coding and descriptions in the Exploratory Data Analysis (EDA) part, and the methods and the results sections of our final write-up.
+This project embodies the collaborative spirit and strong teamwork of our group: Nan Huang, Yi Zhang, Luran Zhang, Jason Dai, Andrew Zhao, Yuhe Tian, Shentong Li, and I, Xiaoyu Gui. Each team member contributed their distinct skills and insights, creating a rich mosaic of knowledge that covered all phases of the project's development.
 
 
 
