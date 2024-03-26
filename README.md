@@ -13,7 +13,7 @@ The dataset used in this project stands out for its completeness, a vital charac
 
 ## 2. Figures
 <p align="center">
-  <img src="assets/File1.png" width="50%" height="50%">
+  <img src="assets/File1.png" width="80%" height="80%">
   <br>
   Source: https://ipad.fas.usda.gov/countrysummary/Default.aspx?id=IN
   <br>
@@ -22,7 +22,7 @@ The dataset used in this project stands out for its completeness, a vital charac
 
 
 <p align="center">
-  <img src="assets/File2.png" width="50%" height="50%">
+  <img src="assets/File2.png" width="80%" height="80%">
   <br>
   Source: https://www.ers.usda.gov/data-products/chart-gallery/gallery/chart-detail/?chartId=78652
   <br>
@@ -61,7 +61,7 @@ The data exploration consists of several parts:
 - **Addressing Missing Values**: Eliminates rows containing missing values.
 - **Addressing Outliers**:
 <p align="center">
-  <img src="assets/Updated_File3.png" width="50%" height="50%">
+  <img src="assets/Updated_File3.png" width="80%" height="80%">
   <br>
   <em>Figure 3: shows the relationship between `Area` and `Production` with outlier included.</em>
   <br>
@@ -96,7 +96,7 @@ $$y = \beta_0 + \beta_{crop}X_{crop} + \beta_{season}X_{season} + \beta_{crop\_y
 - **MSE Metric**: Used to capture the predictive accuracy of the model.
 
 <p align="center">
-  <img src="assets/File6.png" width="50%" height="50%">
+  <img src="assets/File6.png" width="80%" height="80%">
   <br>
   <em>Figure 4: This is the generic representation of a decision tree in our random forest model, which classifies data through asking questions at each node. The source of the figure is shown in the figure.</em>
 </p>
@@ -111,7 +111,7 @@ $$y = \beta_0 + \beta_{crop}X_{crop} + \beta_{season}X_{season} + \beta_{crop\_y
 - **MSE Metric**: Aligns with previous models to measure predictive accuracy.
 
 <p align="center">
-  <img src="assets/File5.png" width="50%" height="50%">
+  <img src="assets/File5.png" width="80%" height="80%">
   <br>
   <em>Figure 5: This is the structure of the neural net work model we will use, which the number of nodes in each layer and the number of layers are specified in the figure.</em>
 </p>
@@ -164,7 +164,7 @@ $$y = \beta_0 + \beta_{crop}X_{crop} + \beta_{season}X_{season} + \beta_{crop\_y
 Based on the results, our third model, Neural Network with Dense Layers, demonstrates the best performance in terms of MSE.
 
 <p align="center">
-  <img src="assets/performance_comparison.png" width="70%">
+  <img src="assets/performance_comparison.png" width="80%">
   <br>
   <em>Figure 6: Mean Squared Error (MSE) by Model Type. This bar chart compares the training MSE and testing MSE for three different models developed in this project. Neural Network exhibit the lowest MSE for both training and testing.</em>
 </p>
@@ -198,7 +198,7 @@ Following the incorporation of these polynomial features, the model underwent ri
 Comparative analysis with baseline linear regression model and polynomial regression model with only one interactive term served to contextualize the polynomial model's efficacy, ensuring a balanced approach that mitigates risks of underfitting or overfitting by adding too few or too many interactive terms. 
 
 <p align="center">
-  <img src="assets/model1_fitting_graph.png" width="70%">
+  <img src="assets/model1_fitting_graph.png" width="80%">
   <br>
   <em>Figure 7: Comparison of training and testing MSE across models with different numbers of unteraction terms. This figure illustrates how the inclusion of varying numbers of interaction terms affects model performance, focusing on Simple Linear Regression, Polynomial Regression with 1 interactive term, and our first model -- Polynomial Regression with 2 interactive terms.</em>
 </p>
@@ -213,7 +213,7 @@ Utilizing the dataset and features processed from the initial model, we divided 
 In pursuit of enhanced prediction accuracy, we undertook hyperparameter tuning. This process involved a 5-fold cross-validation method, executed within the GridSearchCV framework, aiming to meticulously fine-tune the model's parameters. This step involved a systematic search over a specified parameter grid for the number of estimators and the maximum depth of each tree, among other parameters, to identify the most effective combination that minimizes prediction error. After searching among 9 possible parameter combinations, the optimal parameters chosen by the searcher were a maximum depth of 15 and a number of estimators of 200, which achieved a test MSE of 0.5588.
 
 <p align="center">
-  <img src="assets/model2_fitting_graph.png" width="70%">
+  <img src="assets/model2_fitting_graph.png" width="80%">
   <br>
   <em>Figure 8: Comparison of Training and Testing MSE of the Baseline Random Forest Regressor and Model 2 after Hyperparameter-Tuning. This figure demonstrates the importance of tuning hyperparameters in tailoring the model to our specific dataset and predictive goals.</em>
 </p>
@@ -230,7 +230,7 @@ To further improve the neural network's predictive power, we utilized Keras Tune
 Finally, we employed k-fold cross-validation to ensure the model's robustness and generalizability. Our model achieved a mean validation MSE of 0.2124 after 5 iterations. This approach not only provided a more reliable estimate of the model's performance on unseen data but also helped to mitigate the risk of overfitting by validating the model's effectiveness across multiple subsets of the data. The consistent performance across all folds underscored the model's ability to generalize well to new data, reinforcing our confidence in its predictive power.
 
 <p align="center">
-  <img src="assets/model3_fitting_graph.png" width="70%">
+  <img src="assets/model3_fitting_graph.png" width="80%">
   <br>
   <em>Figure 9: Training and Validation Loss Over Epochs of Model 3. This graph depicts the loss on the training set (blue line with stars) and the validation set (orange line with crosses) over ten epochs. Initially, the training loss is much higher than the validation loss, but it quickly decreases and both converge to a similar value by the tenth epoch, indicating a good fit without overfitting.</em>
 </p>
