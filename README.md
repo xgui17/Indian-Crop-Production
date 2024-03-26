@@ -1,7 +1,7 @@
 ## Overview
-This is the project repository for CSE151A at UCSD in WI24. It encompasses a comprehensive analysis and the development of predictive models focused on crop yield data in India. Inside, you will find datasets, analytical scripts, model training algorithms, and results that aim to enhance our understanding and forecasting of agricultural productivity. Detailed documentation is provided to guide you through each component of the project.
+This project encompasses a comprehensive analysis and the development of predictive models focused on crop yield data in India. Inside, you will find datasets, analytical scripts, model training algorithms, and results that aim to enhance our understanding and forecasting of agricultural productivity. Detailed documentation is provided to guide you through each component of the project.
 
-Below is the writeup for this project. Here is the link to our <a href="https://github.com/xgui17/CSE151A/blob/main/Model%203%20and%20Final%20Submission.ipynb">jupyter notebook</a>, feel free to check it out!
+Below is the writeup for this project. Here is the link to our <a href="https://github.com/xgui17/Indian-Crop-Production/blob/main/predict_Indian_crop_production.ipynb">jupyter notebook</a>, feel free to check it out!
 
 ## 1. Introduction
 India stands as the world's largest country by population and seventh largest country by area, a factor that inherently underscores the critical need for sustainable agricultural practices to ensure food security for its billions of inhabitants. The sustainability of people’s daily food source is not just a matter of national concern but has global implications, considering India's significant role in the global food market. As a major producer of various staple crops, including rice, wheat, pulses, any fluctuation in India's agricultural output can have far-reaching effects on global food prices and availability. 
