@@ -275,7 +275,7 @@ In a nutshell, while our current model has achieved reasonably good accuracy, ma
 
 ## 7. Acknowledgements
 
-This project embodies the collaborative spirit and strong teamwork of our group: Nan Huang, Yi Zhang, Luran Zhang, Jason Dai, Andrew Zhao, Yuhe Tian, Shentong Li, and I, Xiaoyu Gui. Each team member contributed their distinct skills and insights, creating a rich mosaic of knowledge that covered all phases of the project's development.
+This project embodies the collaborative spirit and strong teamwork of our group: Nan Huang, Yi Zhang, Luran Zhang, Jason Dai, Andrew Zhao, Yuhe Tian, Shentong Li, and Xiaoyu Gui. Each team member contributed their distinct skills and insights, creating a rich mosaic of knowledge that covered all phases of the project's development.
 
 
 
